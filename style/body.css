@@ -1,0 +1,16 @@
+html,body{
+    transition: all 0.5s;
+    height: 100%;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.wrapper{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content{
+    flex: 1 0 auto;
+}

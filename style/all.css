@@ -1,0 +1,30 @@
+@import url('./body.css');
+@import url('./header.css');
+@import url('./section.css');
+@import url('./media.css');
+
+.common__background{
+    background-image: url('../image/background.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+img{
+    border-style: none;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button, input {
+    overflow: visible;
+}
